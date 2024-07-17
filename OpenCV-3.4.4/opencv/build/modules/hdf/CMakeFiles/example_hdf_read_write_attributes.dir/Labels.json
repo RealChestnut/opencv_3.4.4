@@ -1,0 +1,24 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/hdf/samples/read_write_attributes.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_hdf",
+				"Sample"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_hdf",
+			"Sample"
+		],
+		"name" : "example_hdf_read_write_attributes"
+	}
+}

@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_ximgproc
+ Sample
+# Source files and their labels
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/ximgproc/samples/paillou_demo.cpp
+ Extra
+ opencv_ximgproc
+ Sample

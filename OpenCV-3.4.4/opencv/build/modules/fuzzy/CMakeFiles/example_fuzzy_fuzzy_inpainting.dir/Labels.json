@@ -1,0 +1,24 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/fuzzy/samples/fuzzy_inpainting.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_fuzzy",
+				"Sample"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_fuzzy",
+			"Sample"
+		],
+		"name" : "example_fuzzy_fuzzy_inpainting"
+	}
+}

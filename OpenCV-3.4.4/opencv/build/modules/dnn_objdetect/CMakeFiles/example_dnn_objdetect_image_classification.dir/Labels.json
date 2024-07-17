@@ -1,0 +1,24 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/dnn_objdetect/samples/image_classification.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_dnn_objdetect",
+				"Sample"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_dnn_objdetect",
+			"Sample"
+		],
+		"name" : "example_dnn_objdetect_image_classification"
+	}
+}

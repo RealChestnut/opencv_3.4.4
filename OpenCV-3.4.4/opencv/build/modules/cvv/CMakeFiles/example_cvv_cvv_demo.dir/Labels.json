@@ -1,0 +1,27 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/cvv/samples/cvv_demo.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cvv",
+				"Sample"
+			]
+		},
+		{
+			"file" : "/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/modules/cvv/example_cvv_cvv_demo_autogen/mocs_compilation.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cvv",
+			"Sample"
+		],
+		"name" : "example_cvv_cvv_demo"
+	}
+}

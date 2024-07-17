@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_ccalib
+ Sample
+# Source files and their labels
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/ccalib/samples/random_pattern_generator.cpp
+ Extra
+ opencv_ccalib
+ Sample

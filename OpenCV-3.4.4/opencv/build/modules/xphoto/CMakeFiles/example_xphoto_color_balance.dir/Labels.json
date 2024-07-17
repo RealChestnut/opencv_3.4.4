@@ -1,0 +1,24 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/xphoto/samples/color_balance.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_xphoto",
+				"Sample"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_xphoto",
+			"Sample"
+		],
+		"name" : "example_xphoto_color_balance"
+	}
+}

@@ -1,0 +1,636 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56b07/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56b07.dir/build.make CMakeFiles/cmTC_56b07.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56b07.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -o CMakeFiles/cmTC_56b07.dir/src.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_56b07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56b07.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_56b07.dir/src.c.o  -o cmTC_56b07 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15eac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15eac.dir/build.make CMakeFiles/cmTC_15eac.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15eac.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_15eac.dir/src.cxx.o -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_15eac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15eac.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_15eac.dir/src.cxx.o  -o cmTC_15eac 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c128/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c128.dir/build.make CMakeFiles/cmTC_5c128.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c128.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_5c128.dir/src.cxx.o -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_5c128
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c128.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_5c128.dir/src.cxx.o  -o cmTC_5c128 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60a06/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60a06.dir/build.make CMakeFiles/cmTC_60a06.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60a06.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_60a06.dir/src.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_60a06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60a06.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_60a06.dir/src.c.o  -o cmTC_60a06 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33290/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33290.dir/build.make CMakeFiles/cmTC_33290.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33290.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wsuggest-override -o CMakeFiles/cmTC_33290.dir/src.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_33290
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33290.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_33290.dir/src.c.o  -o cmTC_33290 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7b22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7b22.dir/build.make CMakeFiles/cmTC_e7b22.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7b22.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_e7b22.dir/src.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_e7b22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7b22.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_e7b22.dir/src.c.o  -o cmTC_e7b22 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b009e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b009e.dir/build.make CMakeFiles/cmTC_b009e.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b009e.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_b009e.dir/src.cxx.o -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_b009e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b009e.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_b009e.dir/src.cxx.o  -o cmTC_b009e 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48732/fast"
+/usr/bin/make -f CMakeFiles/cmTC_48732.dir/build.make CMakeFiles/cmTC_48732.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48732.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_48732.dir/src.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_48732
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48732.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_48732.dir/src.c.o  -o cmTC_48732 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08629/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08629.dir/build.make CMakeFiles/cmTC_08629.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08629.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_08629.dir/src.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_08629
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08629.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_08629.dir/src.c.o  -o cmTC_08629 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-absolute-value’'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84b16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84b16.dir/build.make CMakeFiles/cmTC_84b16.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84b16.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTC_84b16.dir/src.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-absolute-value’
+Linking C executable cmTC_84b16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84b16.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow -Wno-pointer-compare  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_84b16.dir/src.c.o  -o cmTC_84b16 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_688c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_688c7.dir/build.make CMakeFiles/cmTC_688c7.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_688c7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_688c7.dir/CheckIncludeFile.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_688c7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_688c7.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_688c7.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_688c7/fast' failed
+make: *** [cmTC_688c7/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73382/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73382.dir/build.make CMakeFiles/cmTC_73382.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_73382.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-missing-prototypes -o CMakeFiles/cmTC_73382.dir/src.cxx.o -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_73382
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73382.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_73382.dir/src.cxx.o  -o cmTC_73382 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f65e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f65e1.dir/build.make CMakeFiles/cmTC_f65e1.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f65e1.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_f65e1.dir/src.cxx.o -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_f65e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f65e1.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_f65e1.dir/src.cxx.o  -o cmTC_f65e1 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_baec1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_baec1.dir/build.make CMakeFiles/cmTC_baec1.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_baec1.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_baec1.dir/src.cxx.o -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_baec1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baec1.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_baec1.dir/src.cxx.o  -o cmTC_baec1 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cec50/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cec50.dir/build.make CMakeFiles/cmTC_cec50.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cec50.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-enum-compare-switch -o CMakeFiles/cmTC_cec50.dir/src.cxx.o -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_cec50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cec50.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_cec50.dir/src.cxx.o  -o cmTC_cec50 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20151/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20151.dir/build.make CMakeFiles/cmTC_20151.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20151.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-inconsistent-missing-override -o CMakeFiles/cmTC_20151.dir/src.cxx.o -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_20151
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20151.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_20151.dir/src.cxx.o  -o cmTC_20151 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a36b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a36b0.dir/build.make CMakeFiles/cmTC_a36b0.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a36b0.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG -fPIE   -Wno-unused-private-field -o CMakeFiles/cmTC_a36b0.dir/src.cxx.o -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_a36b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a36b0.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  -rdynamic CMakeFiles/cmTC_a36b0.dir/src.cxx.o  -o cmTC_a36b0 
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da31b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da31b.dir/build.make CMakeFiles/cmTC_da31b.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da31b.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_da31b.dir/CheckSymbolExists.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_da31b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_da31b.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_da31b.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_da31b/fast' failed
+make: *** [cmTC_da31b/fast] Error 2
+
+File /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29383/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29383.dir/build.make CMakeFiles/cmTC_29383.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29383.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_29383.dir/CheckSymbolExists.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_29383.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_29383.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_29383.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_29383/fast' failed
+make: *** [cmTC_29383/fast] Error 2
+
+File /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c0cb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c0cb0.dir/build.make CMakeFiles/cmTC_c0cb0.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0cb0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c0cb0.dir/CheckSymbolExists.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_c0cb0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c0cb0.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c0cb0.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c0cb0/fast' failed
+make: *** [cmTC_c0cb0/fast] Error 2
+
+File /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d2fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d2fd.dir/build.make CMakeFiles/cmTC_9d2fd.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d2fd.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_9d2fd.dir/CheckSymbolExists.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_9d2fd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9d2fd.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9d2fd.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9d2fd/fast' failed
+make: *** [cmTC_9d2fd/fast] Error 2
+
+File /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82edd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82edd.dir/build.make CMakeFiles/cmTC_82edd.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82edd.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_82edd.dir/CheckSymbolExists.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_82edd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_82edd.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_82edd.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_82edd/fast' failed
+make: *** [cmTC_82edd/fast] Error 2
+
+File /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_359e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_359e3.dir/build.make CMakeFiles/cmTC_359e3.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_359e3.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_359e3.dir/CheckSymbolExists.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_359e3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_359e3.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_359e3.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_359e3/fast' failed
+make: *** [cmTC_359e3/fast] Error 2
+
+File /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a6b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a6b8.dir/build.make CMakeFiles/cmTC_4a6b8.dir/build
+make[1]: Entering directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a6b8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_4a6b8.dir/CheckIncludeFile.c.o   -c /home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_4a6b8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4a6b8.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4a6b8.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4a6b8/fast' failed
+make: *** [cmTC_4a6b8/fast] Error 2
+
+

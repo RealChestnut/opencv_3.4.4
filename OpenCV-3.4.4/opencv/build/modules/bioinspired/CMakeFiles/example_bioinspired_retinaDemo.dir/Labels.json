@@ -1,0 +1,24 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/bioinspired/samples/retinaDemo.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_bioinspired",
+				"Sample"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_bioinspired",
+			"Sample"
+		],
+		"name" : "example_bioinspired_retinaDemo"
+	}
+}

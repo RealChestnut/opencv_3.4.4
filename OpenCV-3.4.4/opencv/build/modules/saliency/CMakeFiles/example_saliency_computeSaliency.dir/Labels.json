@@ -1,0 +1,24 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/saliency/samples/computeSaliency.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_saliency",
+				"Sample"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_saliency",
+			"Sample"
+		],
+		"name" : "example_saliency_computeSaliency"
+	}
+}

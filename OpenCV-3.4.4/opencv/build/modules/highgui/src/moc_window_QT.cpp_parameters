@@ -1,0 +1,14 @@
+-I/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/3rdparty/ippicv/ippicv_lnx/icv/include
+-I/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/3rdparty/ippicv/ippicv_lnx/iw/include
+-I/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build
+-I/home/songyeongin/openCV/OpenCV-3.4.4/opencv/modules/highgui
+-I/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/modules/highgui
+-D__OPENCV_BUILD=1
+-D_USE_MATH_DEFINES
+-D__STDC_CONSTANT_MACROS
+-D__STDC_LIMIT_MACROS
+-D__STDC_FORMAT_MACROS
+-DHAVE_WEBP
+-o
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/build/modules/highgui/src/moc_window_QT.cpp
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv/modules/highgui/src/window_QT.h

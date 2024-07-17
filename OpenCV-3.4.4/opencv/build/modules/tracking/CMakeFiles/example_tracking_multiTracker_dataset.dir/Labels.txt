@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_tracking
+ Sample
+# Source files and their labels
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/tracking/samples/multiTracker_dataset.cpp
+ Extra
+ opencv_tracking
+ Sample

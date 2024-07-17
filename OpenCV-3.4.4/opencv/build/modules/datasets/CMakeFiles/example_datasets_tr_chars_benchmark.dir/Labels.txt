@@ -1,0 +1,9 @@
+# Target labels
+ Extra
+ opencv_datasets
+ Sample
+# Source files and their labels
+/home/songyeongin/openCV/OpenCV-3.4.4/opencv_contrib/modules/datasets/samples/tr_chars_benchmark.cpp
+ Extra
+ opencv_datasets
+ Sample
